@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """This module defines the function to_kv."""
 from typing import Tuple, Union
 
@@ -10,4 +10,4 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     elements as string and float respectively.
     """
 
-    return (k, float(v) ** 2)
+    return (k, v ** 2)
